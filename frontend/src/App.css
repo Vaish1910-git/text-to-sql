@@ -425,3 +425,145 @@ footer {
   background: #0369a1;
 }
 }
+
+.clarification-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.clarification-options button {
+  background: #334155;
+  color: white;
+  border: 1px solid #475569;
+  border-radius: 8px;
+  padding: 12px 16px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.clarification-options button:hover {
+  background: #0369a1;
+  border-color: #38bdf8;
+}
+
+.clarification-options button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Generated SQL formatting */
+.result-box {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.result-box pre {
+  background: #0f172a;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  padding: 16px;
+  margin-top: 12px;
+
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+
+  font-size: 14px;
+  line-height: 1.7;
+  color: #7dd3fc;
+  text-align: left;
+}
+
+/* Results table */
+.result-box table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.result-box th,
+.result-box td {
+  padding: 16px;
+  text-align: left;
+  border-bottom: 1px solid #334155;
+}
+
+.result-box th {
+  background: #26364d;
+  color: #38bdf8;
+}
+
+.result-box td {
+  color: #e2e8f0;
+}
+.history-section {
+  margin-top: 35px;
+  text-align: left;
+}
+
+.history-section h3 {
+  color: #38bdf8;
+  margin-bottom: 15px;
+}
+
+.history-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.history-list button {
+  padding: 13px 16px;
+  background: #1e293b;
+  color: #e2e8f0;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.history-list button:hover {
+  border-color: #38bdf8;
+  background: #26364d;
+}
+.custom-clarification {
+  margin-top: 25px;
+  padding-top: 20px;
+  border-top: 1px solid #334155;
+}
+
+.custom-clarification h4 {
+  color: #38bdf8;
+  margin-bottom: 12px;
+}
+
+.custom-clarification textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 14px;
+  background: #0f172a;
+  color: white;
+  border: 1px solid #475569;
+  border-radius: 8px;
+  resize: vertical;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.custom-clarification button {
+  padding: 12px 18px;
+  background: #0369a1;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.custom-clarification button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
